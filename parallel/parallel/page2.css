@@ -1,0 +1,233 @@
+@font-face {
+    font-family: WorkSans Regular;
+    src: url(Mobe/Mobe/WorkSans-Regular.woff);
+}
+
+@font-face {
+    font-family: Noticia Text Bold;
+    src: url(Mobe/Mobe/NoticiaText-Bold.woff);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    background-color: #78C51C;
+    font-family: WorkSans Regular;
+}
+.body-container{
+    width: 1340px;
+    margin: auto;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.upper{
+    display: flex;
+    background-color: #2A6B2C;
+    padding: 65px;
+    border-radius: 14px;
+}
+.upper-bottom{
+    padding-left: 140px;
+}
+#p1{
+    color: #C8F169;
+    font-size: 15px;
+}
+#p2{
+    font-size: 55px;
+    font-family:Noticia Text Bold ;
+    color: white;
+    padding: 10px 0;
+}
+#p3{
+    color: #ffffff;
+    font-weight: lighter;
+    padding-top: 16px;
+    padding-bottom: 43px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
+}
+button{
+    background-color: #2A6B2C;
+    border: 1px solid white;
+    padding: 13px 25px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #C8F169;
+}
+.lower{
+    background-color: #2A6B2C;
+    padding: 65px;
+    border-radius: 14px;
+    margin-top: 35px;
+    display: flex;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+}
+.lower-left{
+    padding: 110px 0;
+}
+.lower-right{
+    width: 58%;
+    display: flex;
+}
+#d1{
+    display: flex;
+    align-items: flex-end;
+    background-color: #C8F169;
+    height: 160px;
+    width: 160px;
+    border-radius: 12px;
+    padding: 20px;
+}
+.lower-right p{
+    z-index: 1;
+    font-size: 15px;
+}
+.lower-right img{
+    z-index: 1;
+}
+#d2{
+    display: flex;
+    align-items: flex-end;
+    background-color: #C8F169;
+    height: 339px;
+    width: 225px;
+    position: absolute;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 20px;
+}
+#d3{
+    display: flex;
+    align-items: flex-end;
+    background-color: #C8F169;
+    height: 380px;
+    width: 404px;
+    position: absolute;
+    border-radius: 12px;
+    padding: 20px;
+    margin-left: 20px;
+}
+#box1{
+    background-color: #2A6B2C;
+    height: 440px;
+    width: 380px;
+    position: absolute;
+    border-radius: 12px;
+}
+#d4{
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    background-color: #C8F169;
+    height: 353px;
+    width: 143px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+#box2{
+    background-color: #2A6B2C;
+    position: absolute;
+    right: 7%;
+    bottom: 0%;
+    height: 482px;
+    width: 212px;
+    border-radius: 12px;
+}
+#d5{
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    background-color: #C8F169;
+    position: absolute;
+    bottom: 9.1%;
+    right: 23%;
+    height: 120px;
+    width: 133px;
+    padding: 20px;
+    border-radius: 12px;
+}
+.cover1{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    background-color:#2A6B2C;
+    right: 7.6%;
+    top: 32.7%;
+}
+.cover-green1{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    z-index: 3;
+    background-color:#C8F169;
+    border-bottom-right-radius: 12px;
+    right: 7.65%;
+    top: 32.6%;
+}
+.cover2{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    background-color:#2A6B2C;
+    right: 22.76%;
+    top: 65.13%;
+}
+.cover-green2{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    z-index: 3;
+    background-color:#C8F169;
+    border-bottom-right-radius: 12px;
+    right: 22.81%;
+    top: 65.05%;
+}
+.cover3{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    background-color:#2A6B2C;
+    right: 37.4%;
+    top: 69.12%;
+}
+.cover-green3{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    z-index: 3;
+    background-color:#C8F169;
+    border-top-right-radius: 12px;
+    right: 37.46%;
+    top: 69.2%;
+}
+.cover4{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    background-color:#2A6B2C;
+    right: 42.25%;
+    top: 38.99%;
+}
+.cover-green4{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    z-index: 3;
+    background-color:#C8F169;
+    border-top-right-radius: 12px;
+    right: 42.25%;
+    top: 38.99%;
+}

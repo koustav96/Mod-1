@@ -1,0 +1,125 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.header-container{
+    width: 1320px;
+    margin:  auto;
+    display: flex;
+    justify-content: space-between;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 14px 0;
+}
+.head-left{
+    display: flex;
+    align-items: center;
+}
+.head-left ul{
+    padding-left: 30px;
+}
+.header-container a{
+    padding: 0 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.header-container a:hover{
+    color: red;
+}
+.head-left img{
+    cursor: pointer;
+}
+.head-right{
+    display: flex;
+    align-items: center;
+}
+.submt{
+    padding-left: 30px;
+}
+.submt input{
+    padding: 10px 29px;
+    background-color: #FFD560;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.submt input:hover{
+    background-color: blue;
+    color: aliceblue;
+}
+#head-a1{
+    padding-right: 45px;
+    border-right: 2px solid rgba(0, 0, 0, 0.223);
+}
+#head-a2{
+    padding-left: 45px;
+}
+.body{
+    background-color: #FFF7F1;
+}
+.body-container{
+    width: 1320px;
+    margin:  auto;
+}
+.body-upper{
+    margin: auto;
+    width: 800px;
+    padding-top: 50px;
+}
+.body-upper button{
+    padding: 7px 15px;
+    font-size: 14px;
+    margin: 0 10px;
+    background-color:#FFF7F1 ;
+    cursor: pointer;
+    border: 1.5px solid rgba(153, 11, 11, 0);
+    border-radius: 25px;
+    border-color: rgba(0, 0, 0, 0.412);
+}
+.body-upper button:hover{
+    background-color: #FFD560;
+    
+}
+.body-upper button a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.body-lower{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Prompt';
+    padding-top: 30px;
+    font-size: 33px;
+    font-weight: 600;
+    position: relative;
+}
+.left{
+    width: 30%;
+    z-index: 2;
+}
+.right{
+    width: 38%;
+    z-index: 2;
+}
+.right-top{
+    padding-top: 130px;
+    width: 400px;
+}
+.right-down{
+    padding-left: 100px;
+    padding-top: 100px;
+}
+#SignUpBtn{
+    padding: 0;
+}
+.right-down input{
+    padding: 12px 30px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+#floating-img{
+    position: absolute;
+    left: 38%;
+    top:12%
+}
